@@ -5,6 +5,7 @@
     --color-secundary: #F2BF25;
     --padding-buttons: 16px 36px;
     --buttons-radius: 40px;
+    --font-color:#6b6b6b;
 }
 
 *{
@@ -56,7 +57,7 @@ body{
 
 .nav__lists{
     display: flex;
-    gap: 3rem;
+    gap: 3.5rem;
 }
 
 .nav__list{
@@ -68,20 +69,26 @@ body{
 .nav__cta{
     color: #e0e0e0c2;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
 }
 
-.nav__cta--active{
+.nav__cta:hover{
     color: #fff;
 }
 
 .nav__icons{
     display: flex;
     gap: 12px;
+    cursor: pointer;
 }
 
 .nav__icon{
-    color: white;
+    color: #e0e0e0c2;
+    font-weight: 400;
+}
+
+.nav__icon:hover{
+    color: #fff;
 }
 
 /* LANDING */
@@ -206,3 +213,62 @@ body{
 .card__price{
     font-weight: 700;
 }
+
+/*  ABOUT SECTION  */
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 180px 0 ;
+}
+
+.about__texts{
+    width: 55%;
+}
+
+.about__tittle{
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.about__copy{
+    font-size: 1.05rem;
+    line-height: 2;
+    color: rgb(107, 107, 107);
+    margin-bottom: 60px;
+}
+
+.about__features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.feature__tittle{
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.feature__copy{
+    color: var(--font-color);
+    line-height: 1.8;
+}
+
+.about__img{
+    width: 570px;
+    border-radius: 16px;
+}
+
+.about__picture{
+    position: relative;
+    z-index: 1;
+}
+
+.about__dots{
+    position: absolute;
+    top: -90px;
+    left: -102px;
+    z-index: -1;
+}
+
