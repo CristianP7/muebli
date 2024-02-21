@@ -275,7 +275,7 @@ body{
 /* DESIGN */
 
 .design{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: space-between;
     /* outline: 3px solid red; */
@@ -367,3 +367,50 @@ body{
     background-color: #000;
 }
 
+/* LEGEND */
+
+.legend{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 130px 0;
+}
+
+.legend__card{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    gap: 8px;
+}
+
+.legend__texts{
+    width: 80%;
+}
+
+.legend__tittle{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+    color: #242424;
+}
+
+.legend__copy{
+    margin-bottom: 4px;
+    font-size: .9rem;
+    color: var(--font-color);
+    font-weight: 400;
+}
+
+.legend__cta{
+    text-decoration: none;
+    font-size: .95rem;
+    color: #242424;
+    font-weight: 500;
+}
+
+.legend__cta:hover{
+    color: #000;
+}
+
+.legend__img{
+    width: 130px;
+}
