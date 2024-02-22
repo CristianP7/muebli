@@ -12,13 +12,13 @@
     padding:0;
     margin: 0;
     box-sizing: border-box;
-    /* outline: 2px solid #F2BF25; */
+    /* outline: 3px solid red; */
 }
 
 body{
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    background-color: #fafafa;
+    background-color: #f2f2f2;
 }
 
 .container{
@@ -404,7 +404,7 @@ body{
     text-decoration: none;
     font-size: .95rem;
     color: #242424;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .legend__cta:hover{
@@ -414,3 +414,59 @@ body{
 .legend__img{
     width: 130px;
 }
+
+/* TESTIMONIALS */
+
+.testimonials{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.testimonials__tittle{
+    font-size: 2.5rem;
+    font-weight: 400;
+    
+}
+
+.testimonials__card{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials__copy{
+    font-size: 1rem;
+    color: #242424;
+    font-weight: 400;
+    margin-bottom: 35px;
+    padding: 0 390px;
+    line-break: auto;
+}
+
+.testimonials__img{
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 105px;
+    height: 105px;
+}
+
+.testimonials__name{
+    font-size: 1.04rem;
+}
+
+.testimonials__profession{
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.testimonials__img--fipo{
+    width: 135px;
+    height:135px;
+}
+
