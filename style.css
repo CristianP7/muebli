@@ -442,8 +442,9 @@ body{
     font-size: 1rem;
     color: #242424;
     font-weight: 400;
-    margin-bottom: 35px;
-    padding: 0 390px;
+    margin-bottom: 40px;
+    padding: 0 400px;
+    line-height: 2;
     line-break: auto;
 }
 
@@ -473,7 +474,7 @@ body{
 /* BLOG WRAP */
 
 .blog{
-    padding: 120px 0;
+    padding: 120px 0 200px 0;
 }
 
 .blog__texts{
@@ -505,8 +506,9 @@ body{
 
 .blog__wrap{
     display: flex;
-    justify-content: space-between
-    ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
 
 }
 
@@ -521,6 +523,12 @@ body{
     width: 450px;
     border-radius: 20px;
     margin-bottom: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.blog__img:hover{
+    opacity: .6;
 }
 
 .blog__tittle{
