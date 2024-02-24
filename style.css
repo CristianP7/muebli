@@ -78,7 +78,7 @@ body{
 
 .nav__icons{
     display: flex;
-    gap: 12px;
+    gap: 1.5rem;
     cursor: pointer;
 }
 
@@ -655,11 +655,13 @@ body{
 
 .footer__social{
     background-color: #dce5e4;
+    font-size: 1.5rem;
     padding: 10px 20px;
     border-radius: 50%;
     text-decoration: none;
     color: #2e493e;
 }
+
 
 .footer__social:hover{
     background-color: var(--color-primary);
