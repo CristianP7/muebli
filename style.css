@@ -1269,7 +1269,7 @@ body{
 @media screen and (max-width:425px){
 
     .hero{
-        height: 650px;
+        height: 700px;
     }
 
     .landing__texts{
@@ -1315,7 +1315,11 @@ body{
     }
 
     .legend__card{
-        width: 100%;
+        display: none;
+    }
+
+    .design__lists{
+        padding: 0;
     }
 
     .testimonials{
@@ -1342,6 +1346,11 @@ body{
 }
 
 @media screen and (max-width:390px){
+
+    .about , .products{
+        padding: 0;
+    }
+
     .about__features{
         display: flex;
         flex-direction: column;
