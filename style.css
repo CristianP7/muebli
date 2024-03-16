@@ -387,8 +387,10 @@ body{
 
 .legend{
     display: flex;
-    justify-content: space-between;
-    padding: 0 0 130px 0;
+    justify-content: space-between; 
+    align-items: center;
+    height: 50vh;
+    margin-top: 5rem;
 }
 
 .legend__card{
@@ -840,8 +842,13 @@ body{
         width: 600px; 
     }
 
+    .hero{
+        height: 100vh;
+    }
 
 }
+
+
 
 @media screen and (max-width:1400px){
     .landing{
@@ -860,6 +867,8 @@ body{
 }
 
 @media screen and (max-width:1304px){
+
+
     .landing__img{
         width: 490px;
     }
@@ -901,6 +910,17 @@ body{
 
 }
 
+@media screen and (max-width:1160px){
+
+    .landing__tittle{
+        font-size: 4rem;        
+    }
+
+    .landing__copy{
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width:1200px){
 
     .landing{
@@ -926,6 +946,16 @@ body{
 }
 
 @media screen and (max-width:1100px){
+
+    .landing__texts{
+        width: 80%;
+        outline: 3px solid red;
+    }
+
+    .landing__tittle{
+        font-size: 3rem;
+    }
+
 
     .products{
         padding: 80px 0;
@@ -978,6 +1008,17 @@ body{
         left: 36px;
     }
 
+}
+
+@media screen and (max-width:1087px){
+
+    .products{
+        height: 100vh;
+    }
+
+    .landing__copy{
+        padding: 0;
+    }
 }
 
 @media screen and (max-width:1024px){
